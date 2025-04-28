@@ -28,6 +28,3 @@
 - Developed a comprehensive Excel dashboard featuring:
   - Bar charts, line charts, and pivot tables to visualize key trends and performance indicators.
   - Insights were designed to highlight regional strengths, channel efficiency, and sales dynamics over time.
-
-## Conclusion
-The analysis provided a clear understanding of sales performance across different regions and channels. It identified periodic trends, highlighted high-performing segments, and offered a visual basis for strategic decision-making through the interactive Excel dashboard.
