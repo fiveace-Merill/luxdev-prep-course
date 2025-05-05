@@ -26,7 +26,7 @@ The ER diagram below visualizes the relationships between the tables.
 
  **Instructors** Stores Instructors' details.
 
- **Courses** Records each instructor who  taught courses at the company.
+ **Courses** Records each instructor who  teaches the company.
 
  **Enrollments** Tracks which students are enrolled in which course.
 
