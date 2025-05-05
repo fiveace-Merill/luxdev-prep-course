@@ -14,10 +14,10 @@ The ER diagram below visualizes the relationships between the tables.
 4. Create a database connection to the course_management database.
 5. Execute the SQL scripts in the following order:
 
-    - data_insertions
-    - table_creations
-    - view_indexes_triggers
-    - quering_script
+    - [Create Tables](https://github.com/fiveace-Merill/luxdev-prep-course/blob/main/postgres/tables_creation.sql)
+    - [Insert Into Tables](https://github.com/fiveace-Merill/luxdev-prep-course/blob/main/postgres/data_insertions.sql)
+    - [Create Indexes](https://github.com/fiveace-Merill/luxdev-prep-course/blob/main/postgres/views_index_triggers.sql)
+    - [Sample Database Queries](https://github.com/fiveace-Merill/luxdev-prep-course/blob/main/postgres/quering_script.sql)
 
 ### Schema Overview
  1. **Tables**
