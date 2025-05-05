@@ -5,6 +5,8 @@ This PostgreSQL-based project for an EdTech Company models a basic student enrol
 ### Entity Relationship Diagram 
 The ER diagram below visualizes the relationships between the tables.
 
+![Enity Relationship Diagram](https://github.com/fiveace-Merill/luxdev-prep-course/blob/main/postgres/course_management%20-%20public.png)
+
 ### How to run
 1. Ensure PostgreSQL is installed.
 2. Clone the repository 
