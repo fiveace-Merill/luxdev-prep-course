@@ -149,7 +149,7 @@ Output:
 
 ### Challenges and lessons learned
 
-This project presented valuable challenges. At its inception seemed like a rather straightforward process, however, I discovered that creating relationships with foreign keys required a lot of planning and a meticulous sequential approach when inserting values into the database. It finally came alive after a few iterations of ==DROP==, ==ALTER==, and ==DELETE==. 
+This project presented valuable challenges. At its inception seemed like a rather straightforward process, however, I discovered that creating relationships with foreign keys required a lot of planning and a meticulous sequential approach when inserting values into the database. It finally came alive after a few iterations of DROP, ALTER, and DELETE. 
 
 I was also able to resolve common mistakes with GROUP BY and JOIN operations, gaining practical experience creating meaningful aggregations.
 
