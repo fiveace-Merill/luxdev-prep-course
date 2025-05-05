@@ -1,16 +1,16 @@
 # Student Course Management System
 
-This PostgreSQL based project for an EdTech Company models a basic student enrollment system. It enables tracking of students, instructors, courses and student enrollments. The database schema is quite intuitive with four tables to capture the said entities.
+This PostgreSQL-based project for an EdTech Company models a basic student enrollment system. It enables tracking of students, instructors, courses, and student enrollments. The database schema is quite intuitive, with four tables to capture the said entities.
 
 ### Entity Relationship Diagram 
-The ER-Diagram below visualizes the relationships between the tables.
+The ER diagram below visualizes the relationships between the tables.
 
 ### How to run
 1. Ensure PostgreSQL is installed.
 2. Clone the repository 
 3. Open your SQL client: psql, DBeaver
-4. Create a database connection to course_management database.
-5. Execute the sql scripts in the following order:
+4. Create a database connection to the course_management database.
+5. Execute the SQL scripts in the following order:
 
     - data_insertions
     - table_creations
@@ -20,11 +20,11 @@ The ER-Diagram below visualizes the relationships between the tables.
 ### Schema Overview
  1. **Tables**
 
- **Students** Contains Students personal information.
+ **Students** Contains Students' personal information.
 
- **Instructors** Stores Instructors details.
+ **Instructors** Stores Instructors' details.
 
- **Courses** Records each instructor taught courses at the company.
+ **Courses** Records each instructor who  taught courses at the company.
 
  **Enrollments** Tracks which students are enrolled in which course.
 
@@ -32,29 +32,29 @@ The ER-Diagram below visualizes the relationships between the tables.
 
 One instructor can teach many courses.
 
-One Student can enroll to more than one course.
+One Student can enroll in more than one course.
 
-The Enrollments table links students to courses, storing grade per enrollment.
+The Enrollments table links students to courses, storing grades per enrollment.
 
 ### Key Queries Description
 
-Below are some useful queries for reporting and monitoring academic perfomance. Each of these provide some actionable insights.
+Below are some useful queries for reporting and monitoring academic performance. Each of these provides some actionable insights.
 
 1. **Students in at least one course**
 
-Query to identify active learners and can be used to do follow up interventions for students who haven't enrolled to any course.
+A query to identify active learners and can be used to do follow up interventions for students who haven't enrolled to any course.
 
 2. **Students enrolled in more than two Courses**
 
-Gets students currently enrolled in more than two course, maybe used to flag students who have more course workload.
+Gets students currently enrolled in more than two courses, maybe used to flag students who have a heavier course workload.
 
 3. **Course with total enrollments**
 
-Reveal the popularity of a course and can help in resource planning e.g classroom capacity, course material printing, and can inform curriculum decisions.
+Reveal the popularity of a course and can help in resource planning, e.g, classroom capacity, course material printing, and can inform curriculum decisions.
 
 4. **Average grade per score**
 
-For each letter finds the corresponding numeric score, and finds the mean score per course. Can be used for ranking overall course perfomance.
+For each letter, finds the corresponding numeric score, and finds the mean score per course. Can be used for ranking overall course perfomance.
 
 5. **Students not enrolled in any course**
 
@@ -62,7 +62,7 @@ Finds the students in the system who are not yet enrolled to any course.
 
 6. ** Average grade per student**
 
-For each student, finds the average score for all their enrolled courses.
+For each student, find the average score for all their enrolled courses.
 
 7. **Students enrolled in a course taught by a specific instructor**
 
@@ -149,7 +149,7 @@ Output:
 
 ### Challenges and lessons learned
 
-This project presented valuable challenges, At it inception seamed like a rather straigh forward process, however, I discovered that creating relationships with foreign keys required a lot planning and a meticulous sequential approach when inserting values into the database. After a few iterations of DROP'S, ALTER'S and DELETE it finally came alive. 
+This project presented valuable challenges. At its inception seamed like a rather straightforward process, however, I discovered that creating relationships with foreign keys required a lot of planning and a meticulous sequential approach when inserting values into the database. It finally came alive after a few iterations of DROP, ALTER, and DELETE. 
 
 I was also able to resolve common mistakes with GROUP BY and JOIN operations, gaining practical experience creating meaningful aggregations.
 
