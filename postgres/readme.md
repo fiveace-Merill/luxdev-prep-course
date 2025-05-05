@@ -48,7 +48,7 @@ A query to identify active learners and can be used to do follow up intervention
 
 2. **Students enrolled in more than two Courses**
 
-Gets students currently enrolled in more than two courses, maybe used to flag students who have a heavier course workload.
+Gets students currently enrolled in more than two courses, may be used to flag students who have a heavier course workload.
 
 3. **Course with total enrollments**
 
@@ -151,7 +151,7 @@ Output:
 
 ### Challenges and lessons learned
 
-This project presented valuable challenges. At its inception seemed like a rather straightforward process, however, I discovered that creating relationships with foreign keys required a lot of planning and a meticulous sequential approach when inserting values into the database. It finally came alive after a few iterations of DROP, ALTER, and DELETE. 
+This project presented valuable challenges. At its inception it seemed like a rather straightforward process, however, I discovered that creating relationships with foreign keys required a lot of planning and a meticulous sequential approach when inserting values into the database. It finally came alive after a few iterations of DROP, ALTER, and DELETE. 
 
 I was also able to resolve common mistakes with GROUP BY and JOIN operations, gaining practical experience creating meaningful aggregations.
 
