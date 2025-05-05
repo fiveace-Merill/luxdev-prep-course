@@ -56,13 +56,13 @@ Reveal the popularity of a course and can help in resource planning, e.g, classr
 
 4. **Average grade per score**
 
-For each letter, finds the corresponding numeric score, and finds the mean score per course. Can be used for ranking overall course perfomance.
+For each letter, find the corresponding numeric score, and finds the mean score per course. Can be used for ranking overall course perfomance.
 
 5. **Students not enrolled in any course**
 
 Finds the students in the system who are not yet enrolled to any course.
 
-6. ** Average grade per student**
+6. **Average grade per student**
 
 For each student, find the average score for all their enrolled courses.
 
