@@ -1,4 +1,4 @@
-INSERT INTO students(first_name, last_name, email, date_of_birth) VALUES
+insert into students(first_name, last_name, email, date_of_birth) values
 ('Tom',       'Odhong',    'todhong12@gmail.com',       '2001-01-01'),
 ('Chris',     'Kirubi',    'chirubi@gmail.com',         '1999-07-17'),
 ('Fredrick',  'Ogutu',     'freddie.ogutu@gmail.com',   '2004-02-10'),
@@ -15,7 +15,7 @@ insert into instructors(first_name, last_name, email) values
 ('Abigail', 'Njoroge', 'abbykim@caltech.edu'),
 ('Emma', 'Kerubo', 'emma.kerubo@caltech.edu');
 
-INSERT INTO courses(course_name, instructor_id, course_description) VALUES
+insert into courses(course_name, instructor_id, course_descriptionnscription) values
 ('Web Development', 1000, 'Covers building responsive web applications using HTML, CSS, JavaScript, and modern frameworks such as React and Node.js'),
 ('Database Management Systems', 1200, 'Introduction to relational databases, SQL querying, normalization, and database design principles'),
 ('Data Structures and Algorithms', 1200, 'Study of fundamental data structures (arrays, lists, trees, graphs) and algorithms (sorting, searching, recursion) for efficient problem solving'),
@@ -23,7 +23,7 @@ INSERT INTO courses(course_name, instructor_id, course_description) VALUES
 ('Computer Networks', 1000, 'Exploration of networking concepts, OSI and TCP/IP models, routing, switching, and network security fundamentals');
 
 
-INSERT INTO enrollments(student_id, course_id, enrollment_date, grade) VALUES
+insert into enrollments(student_id, course_id, enrollment_date, grade) values
 (1,  100, '2024-09-01', 'A'),
 (1,  110, '2024-09-02', 'B'),
 (2,  120, '2024-09-03', 'C'),

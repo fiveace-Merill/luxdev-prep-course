@@ -1,20 +1,18 @@
---PART FOUR
-
 --View a view on enrollment.id
-CREATE VIEW student_course_summary AS
-SELECT
+create view student_course_summary as
+select
   students.student_id,
-  students.first_name || ' ' || students.last_name AS student_name,
-  courses.course_name        AS course,
-  enrollments.grade          AS grade
-FROM students
-JOIN enrollments
-  ON students.student_id = enrollments.student_id
-JOIN courses
-  ON enrollments.course_id = courses.course_id
+  students.first_name || ' ' || students.last_name as student_name,
+  courses.course_name        as course,
+  enrollments.grade          as grade
+from students
+join enrollments
+  on students.student_id = enrollments.student_id
+join courses
+  on enrollments.course_id = courses.course_id
 ;
 
---Creating an INDEX on enrollments to speed up lookups
-CREATE INDEX idx_enrollments_student_id
-  ON enrollments(student_id)
+--creating an index on enrollments to speed up lookups
+create index idx_enrollments_student_id
+  on enrollments(student_id)
 ;
