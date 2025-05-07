@@ -15,7 +15,7 @@ insert into instructors(first_name, last_name, email) values
 ('Abigail', 'Njoroge', 'abbykim@caltech.edu'),
 ('Emma', 'Kerubo', 'emma.kerubo@caltech.edu');
 
-insert into courses(course_name, instructor_id, course_descriptionnscription) values
+insert into courses(course_name, instructor_id, course_description) values
 ('Web Development', 1000, 'Covers building responsive web applications using HTML, CSS, JavaScript, and modern frameworks such as React and Node.js'),
 ('Database Management Systems', 1200, 'Introduction to relational databases, SQL querying, normalization, and database design principles'),
 ('Data Structures and Algorithms', 1200, 'Study of fundamental data structures (arrays, lists, trees, graphs) and algorithms (sorting, searching, recursion) for efficient problem solving'),
